@@ -1,0 +1,14 @@
+Clase 11
+## Despliegue de apps Spring boot en Heroku
+
+Crear archivo system.propierties en elm proyecto con el contenido
+
+java.runtime.version=19
+
+1.Crear cuenta en Heroku.com y github.com
+2.Tener configurado git en el ordenador
+    a.configuracion de username
+    b.configuracion de useremail
+3.Subir el proyecto github desde intellij IDEA desde la opcion VCS > share project on github
+4.Desde Heroku, crear app y elegir metodo github y buscar el repositorio subido
+5.habilitar deploy autoatico y ejecutar deploy
